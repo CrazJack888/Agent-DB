@@ -1,0 +1,48 @@
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Local environment files
+.env
+.env.local
+.env.*.local
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Testing / linting artifacts
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Logs
+*.log
+logs/
+
+# Docker Compose local volumes
+postgres_data/
+redis_data/
+
+# Git
+.git/
+.gitignore
+
+# Documentation drafts not needed in image
+readme.doc
+readme_extracted.txt
